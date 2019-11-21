@@ -12,7 +12,9 @@ class Flow extends Page {
   static defaultProps = {
     data: {
       nodes: [],
-      edges: [],
+      edges: [
+
+      ]
     },
   };
 

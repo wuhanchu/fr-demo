@@ -31,6 +31,7 @@ const FlowItemPanel = () => {
           type="node"
           size="80*72"
           shape="flow-rhombus"
+          label="123"
           model={{
             color: '#13C2C2',
             label: 'Decision',

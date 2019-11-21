@@ -37,11 +37,10 @@ class DetailForm extends React.Component {
         }
 
         const item = getSelected()[0];
-
         if (!item) {
           return;
         }
-
+        
         executeCommand(() => {
           update(item, {
             ...values,

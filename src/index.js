@@ -60,4 +60,6 @@ export {
   withPropsAPI,
 };
 
+
+
 export default GGEditor;
